@@ -9,6 +9,7 @@ namespace IF
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите четырех значное число");
             int i = Convert.ToInt32(Console.ReadLine());
             int _i=i;
             int k = (_i % 10)*1000;
